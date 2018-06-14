@@ -16,13 +16,26 @@
     padding: 2px;
 
 }
+
+.searchbar{
+    height:75px;
+    width:300px;
+    margin: 5px;
+    background-color: rgb(37, 37, 37);
+display: inline-block;
+border-radius: 8px;
+ 
+}
+
  nav {
      width: 850px;
-     height: 100px;
-    margin: 0;
+     height: 75px;
+    margin: auto;
     padding: 0;
     background-color: darkcyan;
     text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
 }
 
  nav ul  {
@@ -33,14 +46,15 @@
 }
 
 nav li {
-    float: left;
+    display: inline-block;
 }
 
 nav li a {
-    display: block;
+    display:inline-block;
     color: white;
     text-align: center;
-    padding: 30px 25px;
+    margin:auto;
+    padding: 30px 20px;
     text-decoration: none;
     font-size: x-large;
 }
