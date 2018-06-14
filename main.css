@@ -1,0 +1,49 @@
+*{
+    border: 0px solid red;
+}
+
+.container{
+    width: 970px;
+    height:1200px;
+    background-color: dodgerblue;
+}
+
+.text_size{
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+    margin: 5px;
+    padding: 2px;
+
+}
+ nav {
+     width: 850px;
+     height: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+ nav ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to another color on hover */
+nav li a:hover {
+    background-color: rgb(8, 226, 241);
+}
