@@ -5,7 +5,7 @@
 .container{
     width: 970px;
     height:1200px;
-    background-color: dodgerblue;
+   background-color: rgb(36,80,118);
 }
 .header{
     display:inline-block;
@@ -14,32 +14,54 @@
 .text_size{
     display:block;
     color: white;
-    margin-top: 25px;
-    margin-right: 45px;
+     margin-right: 95px;
     padding: 5px;
-    padding-top: 45px;
     text-align: right;
 
+}
+.text_size a{
+
+    color: yellow;
+   
 }
 
 .searchbar{
     height:75px;
     width:300px;
     margin-top: 0px;
-    margin-left:50px;
-    background-color: rgb(37, 37, 37);
+    margin-left:250px;
+    background-color: rgb(68,68,68);
     display: inline-block;
     border-radius: 8px;
     vertical-align: top;
+    
  
+}
+
+.searchbar input{
+   padding: 10px;
+   margin-top:20px;
+   margin-left:40px;
+   border:1.5px solid grey;
+ 
+}
+
+.searchbar button{
+   padding: 10px;
+   color: white;
+   background-color: rgb(39,82,120);
+   width: 45px;
+   height: 35px;
+   border-radius: 6px;
+   border:1.5px solid grey;
+
 }
 
  nav {
      width: 850px;
-     height: 75px;
+     height: 55px;
     margin: auto;
-    padding: 0;
-    background-color: darkcyan;
+   
     text-align: center;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 12px;
@@ -49,7 +71,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: darkcyan;
+    background-color:rgb(66,124,173);
 }
 
 nav li {
@@ -70,3 +92,36 @@ nav li a {
 nav li a:hover {
     background-color: rgb(8, 226, 241);
 }
+
+
+#center {
+    background-color: white;
+} 
+    #centerLeft{
+        width: 300px;
+        margin-left: 112px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #centerLeft * {
+        text-align: center; /* This centers all the children */
+    }
+    #centerLeft li {
+        color: green;
+        text-align: center; /* This centers only the text in the li's */
+    }
+ 
+    .centerRight{
+        width: 300px;
+        margin-left: 112px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .centerRight * {
+        text-align: center; /* This centers all the children */
+    }
+    .centerRight li {
+        color: green;
+        text-align: center; /* This centers only the text in the li's */
+    }
+ 
