@@ -1,10 +1,10 @@
-*{
-    border: 0px solid red;
-}
+/* *{
+    border: 1px solid red;
+} */
 
 .container{
     width: 970px;
-    height:1200px;
+    height:600px;
    background-color: rgb(36,80,118);
 }
 .header{
@@ -61,7 +61,6 @@
      width: 850px;
      height: 55px;
     margin: auto;
-   
     text-align: center;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 12px;
@@ -72,6 +71,8 @@
     margin: 0;
     padding: 0;
     background-color:rgb(66,124,173);
+    border-radius: 6px;
+    height:55px;
 }
 
 nav li {
@@ -83,45 +84,120 @@ nav li a {
     color: white;
     text-align: center;
     margin:auto;
-    padding: 30px 20px;
+    padding: 13.5px 20px;
     text-decoration: none;
     font-size: x-large;
 }
 
 /* Change the link color to another color on hover */
 nav li a:hover {
-    background-color: rgb(8, 226, 241);
+    background-color: rgb(84, 158, 219);
+}
+
+aside{
+    margin-top: 50px;
+    margin-left:50px;
+    padding: 5px;
+    color: white;
+    font-size: large;
+    display: inline-block;
+
+}
+aside a{
+    color: white;
+    font-size: large;
+
+}
+
+main{
+    display: inline-block;
+    width:600px;
+    margin-left: 50px;
+    margin-top:25px;
+    vertical-align: top;
+}
+#history {
+    display: inline-block;
+    color: white;
+}
+#python_zen {
+    display: inline-block;
+    width: 300px;
+    color: yellow;
+    margin-left:150px;
+    line-height: 2;
+    font-size: larger;
+    text-align: center;
 }
 
 
 #center {
     background-color: white;
+  
 } 
     #centerLeft{
         width: 300px;
-        margin-left: 112px;
+        margin-left: 150px;
         display: inline-block;
         vertical-align: top;
+        margin-top: 9px;
+       border-top: 5px solid rgb(84, 158, 219);
+        
     }
     #centerLeft * {
         text-align: center; /* This centers all the children */
     }
     #centerLeft li {
-        color: green;
+        color: blue;
         text-align: center; /* This centers only the text in the li's */
     }
  
-    .centerRight{
+    #centerRight{
         width: 300px;
-        margin-left: 112px;
+        margin-left: 62px;
         display: inline-block;
+        margin-top: 9px;
         vertical-align: top;
+        border-top: 5px solid rgb(84, 158, 219);
     }
-    .centerRight * {
+    #centerRight * {
+  
         text-align: center; /* This centers all the children */
+       
     }
-    .centerRight li {
-        color: green;
+    #centerRight li {
+        color: blue;
         text-align: center; /* This centers only the text in the li's */
     }
  
+
+ footer {
+     width: 850px;
+     height: 55px;
+    margin: auto;
+    text-align: center;
+       background-color: rgb(36,80,118);
+    width: 970px;
+
+}
+
+ footer ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    height:55px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li a {
+    display:inline-block;
+    color:  rgb(84, 158, 219);
+    text-align: center;
+    margin:auto;
+    padding: 13.5px 20px;
+    text-decoration: none;
+    font-size: large;
